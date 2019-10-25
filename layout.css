@@ -1,0 +1,23 @@
+body{
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas: "header nav" 
+                        "content content"
+                        "table img";
+    }
+
+main {
+    grid-area: content;
+    }
+
+table {
+    grid-area: table;
+}
+
+
+
+
+
+
+
+
